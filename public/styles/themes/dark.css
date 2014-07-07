@@ -21,6 +21,7 @@ body,.ace_editor,#tabs{background:url("../../img/bg.png") #1A1A1A;color:#ccc;}
 #top_bar .fa{color:#111;}
 .open_file:hover,.open_folder:hover,#functions li:hover{color:#ff6f1c;}
 #editors{border-right:10px solid #333;}
+#editors .editor{border:1px solid #222;}
 .editor.active{box-shadow:0 0 15px black;}
 .button,.close{color:#000;border:1px solid #000;}
 #log{border-top:10px solid #333;}

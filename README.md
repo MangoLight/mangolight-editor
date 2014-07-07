@@ -90,7 +90,7 @@ I shared this code editor because I think it can be useful for someone else than
 - **Ctrl + ,**: Show Ace editor advanced settings
 
 ## Licenses
-MangoLight Editor is released under the Apache License, Version 2.0: see http://www.apache.org/licenses/LICENSE-2.0
-It uses Ace editor, released under the BSD License: see https://github.com/ajaxorg/ace/blob/master/LICENSE
-It also uses Font Awesome, released under SIL OFL 1.1 and MIT License: see http://fortawesome.github.io/Font-Awesome/license/
-It uses some icons from the Tango Desktop project, released to the Public Domain: http://tango.freedesktop.org/
+- MangoLight Editor is released under the Apache License, Version 2.0: see http://www.apache.org/licenses/LICENSE-2.0
+- It uses Ace editor, released under the BSD License: see https://github.com/ajaxorg/ace/blob/master/LICENSE
+- It also uses Font Awesome, released under SIL OFL 1.1 and MIT License: see http://fortawesome.github.io/Font-Awesome/license/
+- It uses some icons from the Tango Desktop project, released to the Public Domain: http://tango.freedesktop.org/

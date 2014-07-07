@@ -28,7 +28,10 @@ $(document).ready(function(){
     $('#project_selector .fa-refresh').click(function(){update_file_browser()});
     
     $(document).on('click','.open_folder',function(){
-        if($(this).hasClass('site')) return;
+        if($(this).hasClass('site')){
+            $('#browser').animate({'scrollLeft':0});
+            return;
+        }
         clicked_element = $(this);
         var ul = $(this).parent().children('ul');
         if(ul.length===0){
@@ -37,9 +40,11 @@ $(document).ready(function(){
             if(ul.css('display')=='none'){
                 ul.slideDown('fast');
                 $(this).find('img').attr('src','public/img/icons/folder_opened.png');
+                $('#browser').animate({'scrollLeft':(clicked_element.parents('ul').length-1)*20});
             }else{
                 ul.slideUp('fast');
                 $(this).find('img').attr('src','public/img/icons/folder_closed.png');
+                $('#browser').animate({'scrollLeft':(clicked_element.parents('ul').length-1)*20});
             }
         }
     });
@@ -790,7 +795,7 @@ function show_previous_window(){
     $('.editor').each(function(){
         if(parseInt($(this).css('z-index'))>max_zindex && $(this).css('display')!='none'){
             max_zindex = parseInt($(this).css('z-index'));
-            tab = $('#tabs li[data-file="'+$(this).attr('data-file')+'"]');
+            tab = $('#tabs li[data-site="'+$(this).attr('data-site')+'"][data-file="'+$(this).attr('data-file')+'"]');
         }
     });
     if(tab) tab.click();
@@ -1191,6 +1196,7 @@ function open_folder(folder){
                 ul.append(file_hierarchy(data.files));
                 folder.parent().append(ul);
                 ul.slideDown('fast');
+                $('#browser').animate({'scrollLeft':(folder.parents('ul').length-1)*20});
             }else if(data.message=='Not logged'){
                 show_login_form();
             }else{
