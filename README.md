@@ -61,33 +61,33 @@ I shared this code editor because I think it can be useful for someone else than
 - Your ideas...
 
 ## Keyboard shortcuts list
-- _Ctrl + S_: Save/upload file
-- _Ctrl + C_: Copy
-- _Ctrl + X_: Cut
-- _Ctrl + V_: Paste
-- _Ctrl + Z_: Undo
-- _Ctrl + Y_: Redo
-- _Ctrl + F_: Search
-- _Ctrl + H_: Search & Replace
-- _Ctrl + L_: Go to line
-- _Ctrl + D_: Delete current line
-- _Ctrl + Shift + D_: Duplicate current line (or current selection)
-- _Ctrl + P_: Jump to matching bracket
-- _Ctrl + Shift + P_: Select all until matching bracket
-- _Ctrl + Alt + Shift + Left_: Jump to previous similar word
-- _Ctrl + Alt + Shift + Right_: Jump to next similar word
-- _Alt + A_: Go to next tab
-- _Alt + Shift + A_: Go to previous tab
-- _Alt + Q_: close current tab
-- _Alt + M_: toggle maximize file
-- _Ctrl + Q_: Focus functions browser search bar
-- _Ctrl + Shift + F_: Focus files browser search bar
-- _Ctrl + Alt + E_: Record macro
-- _Ctrl + Shift + E_: Replay macro
-- _Alt + F_: Toggle hide files browser
-- _Ctrl + Click_: Place multiple cursors
-- _Ctrl + Shift + Up/Down_: Increase/Decrease number
-- _Ctrl + ,_: Show Ace editor advanced settings
+- **Ctrl + S**: Save/upload file
+- **Ctrl + C**: Copy
+- **Ctrl + X**: Cut
+- **Ctrl + V**: Paste
+- **Ctrl + Z**: Undo
+- **Ctrl + Y**: Redo
+- **Ctrl + F**: Search
+- **Ctrl + H**: Search & Replace
+- **Ctrl + L**: Go to line
+- **Ctrl + D**: Delete current line
+- **Ctrl + Shift + D**: Duplicate current line (or current selection)
+- **Ctrl + P**: Jump to matching bracket
+- **Ctrl + Shift + P**: Select all until matching bracket
+- **Ctrl + Alt + Shift + Left**: Jump to previous similar word
+- **Ctrl + Alt + Shift + Right**: Jump to next similar word
+- **Alt + A**: Go to next tab
+- **Alt + Shift + A**: Go to previous tab
+- **Alt + Q**: close current tab
+- **Alt + M**: toggle maximize file
+- **Ctrl + Q**: Focus functions browser search bar
+- **Ctrl + Shift + F**: Focus files browser search bar
+- **Ctrl + Alt + E**: Record macro
+- **Ctrl + Shift + E**: Replay macro
+- **Alt + F**: Toggle hide files browser
+- **Ctrl + Click**: Place multiple cursors
+- **Ctrl + Shift + Up/Down**: Increase/Decrease number
+- **Ctrl + ,**: Show Ace editor advanced settings
 
 ## Licenses
 MangoLight Editor is released under the Apache License, Version 2.0: see http://www.apache.org/licenses/LICENSE-2.0
