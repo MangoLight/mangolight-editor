@@ -6,6 +6,9 @@ MangoLight Editor
 =================
 MangoLight Editor is a lightweight open-source code editor that works in the cloud, created by [Nicolas Thomas](http://www.nicolasthomas.fr) from [MangoLight](http://www.mangolight.com) Web agency.
 
+Official page: http://www.mangolight.com/labs/mangolight_editor/index.php
+
+
 ## Features
 - Remote edit your files in your browser
 - Run on your own server
