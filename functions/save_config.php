@@ -17,7 +17,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * ========================================================== */
-if(file_exists('../config.php') && file_get_contents('../config.php')!=''){
+if(file_exists('../config.php') && file_get_contents('../config.php')!=' '){
     include('check_logged.php');
     
     if($_POST['settings_password']=='#########'){
